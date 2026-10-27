@@ -1,1 +1,2 @@
 # Segregaci-n-de-interfaz
+una clase no debe implementar métodos que no necesita. hay tres interfaces: Enviable, Remplazable y Expirable. La clase Fisico implementa Enviable y Remplazable, mientras que Digital implementa Expirable. Así, cada clase utiliza solo los métodos que necesita. esto es una explicacion bastente resumida, pero es de esta manera, para que el mantenimiento de las clases sea sencillo y escalable debemos priorizar no tener complicaciones inncesesarias con metodos no utlizados
